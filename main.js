@@ -1,16 +1,19 @@
 // username set to empty string
-let userName = '';
+let userName = 'Gabriel';
 
 //ternary expression that decides what to do if the user enters a name or not
 userName ? console.log(`Hello ${userName}!`) : console.log ('Hello!');
 
 // question user wants to ask set to empty string 
-let userQuestion = ''; 
+let userQuestion = 'Will I go to bed early tonight?'; 
 
 console.log(`The user asked: ${userQuestion}`);
 
 // generates a random number between 0-7
 const randomNumber = Math.floor(Math.random() * 8);
+
+//random number that will match up with the response in switch case
+console.log(randomNumber);
 
 //eightball set to empty string 
 let eightBall = '';
@@ -42,3 +45,5 @@ switch (randomNumber) {
     eightBall= 'Signs point to yes';
     break;
 }
+// magic eight ball response 
+console.log(eightBall);
