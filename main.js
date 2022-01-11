@@ -1,11 +1,11 @@
 // username set to empty string
-let userName = 'Gabriel';
+let userName = 'Ismeny';
 
 //ternary expression that decides what to do if the user enters a name or not
 userName ? console.log(`Hello ${userName}!`) : console.log ('Hello!');
 
 // question user wants to ask set to empty string 
-let userQuestion = 'Will I go to bed early tonight?'; 
+let userQuestion = 'Should my husband buy me more weed?'; 
 
 console.log(`The user asked: ${userQuestion}`);
 
@@ -47,3 +47,17 @@ switch (randomNumber) {
 }
 // magic eight ball response 
 console.log(eightBall);
+
+//RACE DAY PRACTICE CODE
+
+let raceNumber = Math.floor(Math.random() * 1000);
+
+let registeredEarly = false;
+
+let runnerAge = 26;
+
+if (runnerAge >= 18 && registeredEarly) {
+  raceNumber += 1000;
+} else {
+    console.log('Not an adult AND not registered early');
+}
