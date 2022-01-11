@@ -12,9 +12,6 @@ console.log(`The user asked: ${userQuestion}`);
 // generates a random number between 0-7
 const randomNumber = Math.floor(Math.random() * 8);
 
-//random number that will match up with the response in switch case
-console.log(randomNumber);
-
 //eightball set to empty string 
 let eightBall = '';
 
@@ -46,5 +43,5 @@ switch (randomNumber) {
     break;
 }
 // magic eight ball response 
-console.log(eightBall);
+console.log('The magic eight ball says: ' + eightBall);
 
