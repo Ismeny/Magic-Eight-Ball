@@ -5,7 +5,7 @@ let userName = 'Ismeny';
 userName ? console.log(`Hello ${userName}!`) : console.log ('Hello!');
 
 // question user wants to ask set to empty string 
-let userQuestion = 'Should my husband buy me more weed?'; 
+let userQuestion = 'Should I work out today?'; 
 
 console.log(`The user asked: ${userQuestion}`);
 
