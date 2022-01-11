@@ -4,7 +4,7 @@ let userName = 'Ismeny';
 //ternary expression that decides what to do if the user enters a name or not
 userName ? console.log(`Hello ${userName}!`) : console.log ('Hello!');
 
-// question user wants to ask set to empty string 
+// question user wants to ask  
 let userQuestion = 'Should I work out today?'; 
 
 console.log(`The user asked: ${userQuestion}`);
