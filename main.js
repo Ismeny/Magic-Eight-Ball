@@ -48,16 +48,3 @@ switch (randomNumber) {
 // magic eight ball response 
 console.log(eightBall);
 
-//RACE DAY PRACTICE CODE
-
-let raceNumber = Math.floor(Math.random() * 1000);
-
-let registeredEarly = false;
-
-let runnerAge = 26;
-
-if (runnerAge >= 18 && registeredEarly) {
-  raceNumber += 1000;
-} else {
-    console.log('Not an adult AND not registered early');
-}
